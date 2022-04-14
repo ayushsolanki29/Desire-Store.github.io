@@ -299,9 +299,7 @@ body{
     /*responsiv consept*/
 
     @media only screen and (max-width:700px){
-        body{
-            margin-left: -35;
-        }
+      
         nav ul{
             width: 100%;
             background-color: #f1f1f1;
@@ -362,9 +360,13 @@ body{
         }
         .phcontainer{
             width: 100%;
+            margin-left:-30px ;
         }
         .Searchbox{
-            width: 37%;
+            width: 50%;
+        }
+        .searchbox:hover{
+            width: 100px;
         }
         .bord-container .bord-card  .bord-imgbx{
             width: 70%
@@ -384,6 +386,13 @@ body{
         .p-container .p-card .p-circle{
             height:  427px;
             width: 308px; 
+        }
+        .app-head{
+            font-size: 12px;
+            display: flex;
+        }
+        .app-head h1{
+            padding: 10%;
         }
         .app{
             width: 70%;
