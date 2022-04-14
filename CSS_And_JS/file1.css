@@ -294,6 +294,12 @@ body{
     .social-links{
         text-align: center;
     }
+.app-head h1{
+    padding: 2%;
+    
+    color: #666;
+    text-align: start;
+}
    
     
     /*responsiv consept*/
