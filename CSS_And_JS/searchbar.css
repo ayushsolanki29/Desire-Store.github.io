@@ -16,7 +16,7 @@
 }   
 
 .searchbox:hover{
-    width: 400px;
+    width: 300px;
 }
 
 .searchbox::before{
