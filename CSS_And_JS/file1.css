@@ -286,6 +286,11 @@ body{
     
 
 }
+.video h3{
+    padding: 2%;
+    color: #888;
+    text-transform: uppercase;
+}
 /*footer section*/
     .social-links img{
         height: 13px;
