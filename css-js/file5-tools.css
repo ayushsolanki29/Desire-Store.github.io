@@ -64,7 +64,7 @@ ol span{
     border-bottom-left-radius:20px ;
     border: 1px solid #ff3527 ;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    width: 600px;
+    width: 150px;
     padding: 30px 50px;
     max-width: 100%;
     text-align: center;  
@@ -149,6 +149,6 @@ ol span{
         width: auto;
 }
 .pagination li{
-    margin: -1px;
+    margin: 0px;
 }
 }
