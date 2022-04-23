@@ -152,7 +152,7 @@ ol span{
 }
 .modal{
     width: 165px;
-    backdrop-filter: blur(3px); 
+    backdrop-filter: blur(10px); 
 
 }
 
