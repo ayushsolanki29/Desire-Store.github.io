@@ -6,6 +6,7 @@
        
         <link rel="stylesheet" href="css-js/file3-software.css">
         <link rel="stylesheet" href="css-js/file1-home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    
     
              </head>
@@ -32,6 +33,18 @@
     <img src="image/menu.png" class="menu-icon" 
     onclick="togglemenu()" >
     </div>
+     <!--loader-->
+     <div class="load-cont">
+        <div class="spinner" id="preloader">
+          <div class="loader l1"></div>
+          <div class="loader l2"></div>
+          </div>  
+          <script>
+             var loader = document.getElementById("preloader")
+             window.addEventListener("load", function(){
+                 loader.style.display = "none";
+             })
+          </script></div>
   <!-- software section--> 
   <div class="app-head">
       <h1>Top Best Applications Not Available On Playstore </h1>
@@ -240,18 +253,24 @@
 </div>
 
     
-  <!-- footer section-->
- <hr>
-<footer >
-  
+<!-- footer section-->
+<hr>
+<footer>
+    <section class="footer">
+        <div class="social">
+            <a href="#"> <i class="fab fa-instagram"></i></a>
+            <a href="#"> <i class="fab fa-facebook"></i></a>
+            <a href="#"> <i class="fab fa-github"></i></a>
+            <a href="#"> <i class="fab fa-youtube"></i></a>
+            <a href="#"> <i class="fa-solid fa-envelope"></i></a>
+          
+        </div>
 
-    <div class="social-links">
-        <a href="comming soon.html"> <img src="image/fb.png"></a>
-        <a href="comming soon.html"> <img src="image/ig.png" ></a>
-        <a href="mailto:Desirestore.help@gmail.com"><img src="image/email.png" ></a>
-     </div>
-    </footer>
-</div>
+        <p class="copyright">
+            &copy; 2022 Designed by<span>Ayush Solanki</span>
+
+  
+    </section></footer>
   <!-- script-->
 <!--===================================================-->
 

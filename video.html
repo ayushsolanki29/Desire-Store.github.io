@@ -7,6 +7,7 @@
         
        
         <link type="text/css" rel="stylesheet" href="css-js/file7-video.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         
     </head>
 <body>
@@ -27,7 +28,18 @@
         </ul>
 
 </nav>
-
+ <!--loader-->
+ <div class="load-cont">
+    <div class="spinner" id="preloader">
+      <div class="loader l1"></div>
+      <div class="loader l2"></div>
+      </div>  
+      <script>
+         var loader = document.getElementById("preloader")
+         window.addEventListener("load", function(){
+             loader.style.display = "none";
+         })
+      </script></div>
     </div><div class="clear"></div>
     <!-- Window-->
 <!--===================================================-->
@@ -38,7 +50,7 @@
         </div>
         <div class="clip">
             
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rYUkJGIZ5tE"  ="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Iqr3XIhSnUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <b class="close">close</b>
         </div></div>
 
@@ -51,19 +63,28 @@
                 <p>For Mobile <p>
             </div>
             <div class="clip2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/rYUkJGIZ5tE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Iqr3XIhSnUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <b class="close2">close</b>
             </div></div>
                                 <!-- footer section-->
 <!--===================================================-->
 <hr>
 <footer>
-    <div class="social-links">
-        <a href="comming soon.html"> <img src="image/fb.png"></a>
-        <a href="comming soon.html"> <img src="image/ig.png" ></a>
-        <a href="mailto:Desirestore.help@gmail.com"><img src="image/email.png" ></a>
+ <section class="footer">
+     <div class="social">
+         <a href="#"> <i class="fab fa-instagram"></i></a>
+         <a href="#"> <i class="fab fa-facebook"></i></a>
+         <a href="#"> <i class="fab fa-github"></i></a>
+         <a href="#"> <i class="fab fa-youtube"></i></a>
+         <a href="#"> <i class="fa-solid fa-envelope"></i></a>
+       
      </div>
-</footer>
+
+     <p class="copyright">
+         &copy; 2022 Designed by<span>Ayush Solanki</span>
+
+
+ </section></footer>
                 <!-- script-->
 <!--===================================================-->
         <script src="css-js/js/Video.js"></script>
