@@ -266,6 +266,10 @@ footer{
     font-family: cursive;
     font-weight: 200;
 }
+.footer .copyright a{
+    text-decoration: none;
+    color:#aaa ;
+}
 
 /*====================================Responsive========================*/
 @media(max-width:991px){

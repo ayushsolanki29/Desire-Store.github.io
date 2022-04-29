@@ -408,7 +408,10 @@ footer{
     font-family: cursive;
     font-weight: 200;
 }
-
+.footer .copyright a{
+    text-decoration: none;
+    color:#aaa ;
+}
 /*========loder======*/
 .load-cont{
         max-width: 700px;
@@ -589,6 +592,9 @@ footer{
         }
         .app{
             width: 100%;
+        }
+        .footer ul li{
+            flex-direction: column;           
         }
     }
     
