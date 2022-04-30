@@ -603,5 +603,8 @@ option{
         .footer ul li{
             display: block;          
         }
+          fieldset{
+            margin-left:-22px ;
+        }
     }
     
