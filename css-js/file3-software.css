@@ -77,6 +77,12 @@
     background: linear-gradient( #ff468f, #ff6062 ) ;
 }
 
+/*===========games============*/
+
+       
+
+
+
 .app{
     width: 29%;
     height: 50%;
@@ -131,14 +137,21 @@
     color: #fff;
     text-align: center;
 }
-.app .app-btn a:hover{
-font-weight: bold;
-}
+
 .app-head h1{
     padding: 2%;
     
     color: #666;
     text-align: start;
+}
+fieldset{
+    width: inherit;
+    grid-area: 1/1;
+    padding: 20px;
+}
+legend{
+    padding: 0 6px;
+    margin: auto;
 }
 hr {
     margin-top: 5%;

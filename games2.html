@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mobile Games</title>
+       
+        <link rel="stylesheet" href="css-js/file3-software.css">
+        <link rel="stylesheet" href="css-js/file1-home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     </head>
+<body>
+    <!-- header-->
+    <!--====================================-->
+  
+<div class="container">
+    <div class="navbar">
+        <img src="image/logo.png" class="logo" >
+        
+
+<nav>
+    <ul id="menuList">
+        <li><a   href="index.html">HOME</a></li>
+        <li><a href="software.html">SOFTWERE</a></li>
+        <li><a  class="on"  href="games.html">GAMES</a></li>
+        <li><a  href="android.html">ANDROID</a></li>
+        <li><a  href="tools.html">TOOLS</a></li>
+        <li><a  href="about us.html">ABOUT US</a></li>
+        </ul>
+</nav>
+
+    <img src="image/menu.png" class="menu-icon" onclick="togglemenu()" >
+    </div>
+     <!--loader-->
+     <div class="load-cont">
+        <div class="spinner" id="preloader">
+          <div class="loader l1"></div>
+          <div class="loader l2"></div>
+          </div>  
+          <script>
+             var loader = document.getElementById("preloader")
+             window.addEventListener("load", function(){
+                 loader.style.display = "none";
+             })
+          </script></div>
+
+
+   <!--toggle switch-->
+
+
+   <label class="switch">
+    <input type="checkbox" onclick="change()">
+    <span class="slider"></span>
+  </label>
+  <script>
+    function change(){
+    window.open("games.html");
+    }
+</script>
+  
+  <!-- footer section-->
+
+  <hr>
+  <footer>
+   <section class="footer">
+       <div class="social">
+           <a href="#"> <i class="fab fa-instagram"></i></a>
+         
+           <a href="#"> <i class="fab fa-github"></i></a>
+           <a href="#"> <i class="fab fa-youtube"></i></a>
+           <a href="#"> <i class="fa-solid fa-envelope"></i></a>
+         
+       </div>
+
+       <p class="copyright">
+           &copy; 2022 Designed by <a href="https://www.instagram.com/ayushsolanki.exe/?igshid=YmMyMTA2M2Y=" target="_blank"> <span> Ayush Solanki</span></a>
+</p>
+ 
+   </section></footer>
+</div>
+   <!-- script-->
+<!--===================================================-->
+
+<script src="css-js/js/nav.js"></script>
+   
+   </body>
+   
+   
+       </html>

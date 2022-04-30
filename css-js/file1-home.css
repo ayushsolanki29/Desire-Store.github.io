@@ -412,6 +412,13 @@ footer{
     text-decoration: none;
     color:#aaa ;
 }
+select{
+   
+    border: none;
+}
+option{
+    color: #000;
+}
 /*========loder======*/
 .load-cont{
         max-width: 700px;
@@ -594,7 +601,7 @@ footer{
             width: 100%;
         }
         .footer ul li{
-            flex-direction: column;           
+            display: block;          
         }
     }
     
