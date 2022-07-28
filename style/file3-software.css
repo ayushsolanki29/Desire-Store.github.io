@@ -1,0 +1,265 @@
+
+/*software*/
+
+ a i{
+    text-decoration: none;
+    color: #252525;
+}
+
+/* box for download  */
+.card {
+    width: 190px;
+    height: 254px;
+    padding: .8em;
+    background: #f5f5f5;
+    display: inline-block;
+    margin: 1%;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   }
+   
+   .card-img {
+    background-color: #fff;
+    height: 40%;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+   
+   .card-info {
+    padding-top: 10%;
+   }
+   
+   .card-img img {
+    width: 190px;
+    height: 110px;
+   }
+   
+   .card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+   }
+   
+   /*Text*/
+   .text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+ 
+   .text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   
+   /*Button*/
+   .card-button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+   }
+   
+   /*Hover*/
+   .card-img:hover {
+    transform: translateY(-25%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+   }
+   
+   .card-button:hover {
+    border: 1px solid white;
+    background-color: white;
+   }
+   
+
+   /*===================== card end ========== */
+
+   /* more website card  */
+.p-container{
+    position: relative;
+   
+    width: 298px;
+    padding: 0px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.p-container .p-card{
+    position: relative;
+    width:  255px;
+    height: 420px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+
+}
+.p-container:hover .p-card{
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+
+}
+.p-container .p-card:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+.p-container .p-card .p-circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+}
+.p-container .p-card .p-circle h2{
+    color: #fff;
+    font-size: 4.5em;
+    padding: 30px 0;
+}
+.p-container .p-card .p-content{
+    position: absolute;
+    bottom: 10px;
+    page-break-after: 20px;
+    text-align: center;
+
+}
+.p-container .p-card .p-content p{
+    color: #666;
+    font-size: 15px;}
+
+.p-container .p-card .p-content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+.p-container .p-card:nth-child(1) .p-circle,
+.p-container .p-card:nth-child(1) .p-content a
+{
+    background: linear-gradient( #ff468f, #ff6062 ) ;
+}
+
+fieldset{
+    width: inherit;
+    grid-area: 1/1;
+    padding: 20px;
+}
+legend{
+    padding: 0 6px;
+    margin: auto;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+   /*-------------- end more website card ------------------------------ */
+
+/* button for pages  */
+.cta {
+    border: none;
+    background: none;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+   }
+   
+   .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 10px;
+    padding-right: 15px;
+    text-transform: uppercase;
+   }
+   
+   .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active svg {
+    transform: scale(0.9);
+   }
+   
+   .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+   }
+   
+   .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+   }
+   
+   .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+   }/* end button for pages  */
+
+
+   @media only screen and (max-width:700px){
+
+    .p-container{
+        width: 500px;
+        margin-left:-30px ;
+
+    }
+    .p-container .p-card{
+       height:  427px;
+         width: 308px;
+    }
+    .p-container .p-card .p-circle{
+        height:  427px;
+        width: 308px; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   }
